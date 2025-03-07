@@ -1,4 +1,12 @@
 [core]
-    remote = dagshub
+    remote = origin
 ['remote "dagshub"']
     url = https://dagshub.com/penke-sudheer/ml_pipeline_end_to_end.dvc
+    auth = basic
+    user = penke-sudheer
+    password = d9247284132bc69da0d2176b2e215fe50a05d901
+['remote "origin"']
+    url = https://dagshub.com/penke-sudheer/ml_pipeline_end_to_end.dvc
+    auth = basic
+    user = penke-sudheer
+    password = 9c6efee5f6304ba5c315b05cc10e770d46a2182d
